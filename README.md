@@ -31,14 +31,18 @@ python -m frontends.console
 ## Project Structure
 ```
 TIC-TAC-TOE-main/
-│── frontends/
-│   ├── console/
-│   │   ├── __main__.py  # Entry point for CLI
-│   │   ├── cli.py       # Command-line interactions
-│   │   ├── players.py   # Player logic
-│   │   ├── renderers.py # Game rendering logic
-│── README.md           # Project documentation
-│── requirements.txt    # Dependencies
+├───frontends
+│   └───console
+│       └───__pycache__
+└───library
+    └───src
+        ├───tic_tac_toe
+        │   ├───game
+        │   │   └───__pycache__
+        │   ├───logic
+        │   │   └───__pycache__
+        │   └───__pycache__
+        └───tic_tac_toe.egg-info
 ```
 
 ## Contributing
